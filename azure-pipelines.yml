@@ -35,4 +35,4 @@ stages:
         repository: '$(imageRepository)'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-        tags: '$(Build.BuildId)'
+        tags: '$(Build.BuildNumber)'
